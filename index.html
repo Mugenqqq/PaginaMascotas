@@ -17,27 +17,30 @@
 
   <nav>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Productos</a></li>
-      <li><a href="#">Servicios</a></li>
-      <li><a href="#">Consejos</a></li>
-      <li><a href="#">Nosotros</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#productos">Productos</a></li>
     </ul>
   </nav>
 
   <main>
+    <section id="home" class="bienvenida">
+      <h1>Bienvenidos a Mugen Mascotas</h1>
+      <p>Tu tienda confiable para encontrar lo mejor en alimentación para perros y gatos. Contamos con más de 200 productos seleccionados para la salud y felicidad de tu mascota.</p>
+    </section>
+
     <section class="filtros">
+      <button onclick="filtrar('todos')">Todos</button>
       <button onclick="filtrar('perros')">Perros</button>
       <button onclick="filtrar('gatos')">Gatos</button>
     </section>
 
     <section id="productos" class="productos-grid">
-      <!-- Productos cargados dinámicamente -->
+      <!-- Aquí se cargarán los productos dinámicamente -->
     </section>
   </main>
 
   <footer>
-    <p>Contacto: <a href="https://wa.me/521XXXXXXXXXX">Enviar WhatsApp</a></p>
+    <p>Contacto: <a href="https://wa.me/521XXXXXXXXXX" target="_blank">Enviar WhatsApp</a></p>
     <p>&copy; 2025 Mugen Mascotas</p>
   </footer>
 
