@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('../assets/img/fondo-animalitos.png') repeat;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, orange, red);
+  color: white;
+  padding: 1rem;
+}
+
+.search-bar {
+  width: 40%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.cart {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to right, red, orange);
+  padding: 0.5rem;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.filtros {
+  margin: 1rem;
+  text-align: center;
+}
+
+.filtros button {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  background-color: yellow;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.filtros button:hover {
+  transform: scale(1.05);
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.producto {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+}
+
+.agregar-btn {
+  background-color: blue;
+  color: white;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.agregar-btn:hover {
+  background-color: darkblue;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
