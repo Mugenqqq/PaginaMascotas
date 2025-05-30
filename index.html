@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mugen Mascotas</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🐾 Mugen Mascotas</div>
+    <input type="text" placeholder="¿Qué necesita tu mascota?" class="search-bar">
+    <div class="cart">
+      🛒 <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Productos</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Consejos</a></li>
+      <li><a href="#">Nosotros</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="filtros">
+      <button onclick="filtrar('perros')">Perros</button>
+      <button onclick="filtrar('gatos')">Gatos</button>
+    </section>
+
+    <section id="productos" class="productos-grid">
+      <!-- Productos cargados dinámicamente -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Contacto: <a href="https://wa.me/521XXXXXXXXXX">Enviar WhatsApp</a></p>
+    <p>&copy; 2025 Mugen Mascotas</p>
+  </footer>
+
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
