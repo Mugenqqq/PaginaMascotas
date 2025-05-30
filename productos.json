@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Fórmula Natural Fresh Meat",
+    "imagen": "assets/img/freshmeat.png",
+    "categoria": "perros"
+  },
+  {
+    "id": 2,
+    "nombre": "Acana Puppy Recipe",
+    "imagen": "assets/img/acana-puppy.png",
+    "categoria": "perros"
+  },
+  {
+    "id": 3,
+    "nombre": "Acana Limited Pork & Squash",
+    "imagen": "assets/img/acana-pork.png",
+    "categoria": "perros"
+  }
+]
